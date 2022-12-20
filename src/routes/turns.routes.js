@@ -11,13 +11,4 @@ router.get('/', async (req, res) => {
 
 });
 
-router.post('/', async (req, res) => {
-
-    const { number, hour } = req.body;
-    const turn = new Turn({ number, hour });
-    await turn.save();
-    res.json({status: 'Turn Saved'});
-
-});
-
 module.exports = router;
