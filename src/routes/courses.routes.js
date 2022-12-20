@@ -5,7 +5,9 @@ const Course = require('../models/courses');
 
 router.get('/', async (req, res) => {
     
-    const courses = await Course.find();
+    const courses = await Course.aggregate([
+        { $group: { _id: "$title", code: { $first: "$code"}}}
+    ]);
     console.log(courses);
     res.json(courses);
 

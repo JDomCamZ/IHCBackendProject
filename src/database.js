@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-const DBCourses = 'mongodb://127.0.0.1/courses';
+const DBMatricula = 'mongodb://127.0.0.1/MatriculaUNI';
 
-mongoose.connect(DBCourses)
+mongoose.connect(DBMatricula)
     .then(db => console.log('DB is connected'))
     .catch(err => console.error(err));
 
