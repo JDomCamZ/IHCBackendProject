@@ -4,8 +4,7 @@ const { Schema } = mongoose;
 const SchemaCourses = new Schema ({
     title: { type: String, required: true},
     code: { type: String, required: true},
-    semester: { type: String, required: true},
-    turn: { type: Boolean, required: true}
+    semester: { type: String, required: true}
 });
 
 module.exports = mongoose.model('Course', SchemaCourses);
