@@ -1,6 +1,7 @@
 const express = require('express');
 const base64 = require('base64-url');
 const router = express.Router();
+const path = require('path');
 
 const Student = require('../models/student');
 const Course = require('../models/courses');
@@ -45,17 +46,10 @@ router.post('/', async (req, res) => {
 
 //Obtener imagen del alumno
 
-router.get('/:code/image', async (req, res) => {
-    
-    const student = await Student.findOne({code: req.params.code});
-    const imagen_base64 = student.image;
-
-    // Convertir la cadena en formato base64 a bytes
-    const imagen_bytes = base64.decode(imagen_base64);
-
-    // Enviar la imagen en la respuesta de la API
-    res.send(imagen_bytes);
-
-});
+router.get('/:code/image', (req, res) => {
+    const imageName = req.params.code + ".jpg";
+    const imagePath = path.join(__dirname, '..', 'images', imageName);
+    res.sendFile(imagePath);
+  });
 
 module.exports = router;

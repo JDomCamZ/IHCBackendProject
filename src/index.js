@@ -22,7 +22,7 @@ app.use('/api/turns', require('./routes/turns.routes'));
 
 //Archivos Estaticos
 
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '..', '..', 'MatriculaUNIFrontend', 'public')));
 
 //Empezando a correr el server
 
