@@ -76,4 +76,27 @@ router.put('/:code/enrolled', async (req, res) => {
     res.json({status: 'Enrolled Courses Updated'});
 })
 
+//Obtener lista de horarios disponibles para el alumno
+
+router.get('/:code/schedule', async (req, res) => {
+    const student = await Student.findOne({code: req.params.code});
+    const courses = student.enrolled;
+    const turns = [];
+    for (let i = 0; i < courses.length; i++) {
+        turns.push(await Course.find({code: courses[i]}));
+    };
+    //console.log(turns);
+    for (let i = 0; i < turns.length; i++) {
+        for (let j = 0; j < turns[i].length; j++) {
+            console.log(turns[i][j].title);
+            console.log(turns[i][j].section);
+            console.log(turns[i][j].days);
+            console.log(turns[i][j].start);
+            console.log(turns[i][j].finish);
+            console.log(turns[i][j].teacher);
+        }
+    }
+    res.json(turns);
+});
+
 module.exports = router;

@@ -22,10 +22,10 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
 
-    const { title, code, semester } = req.body;
-    const course = new Course({ title, code, semester});
+    const { title, code, semester, section, days, start, finish, teacher } = req.body;
+    const course = new Course({ title, code, semester, section, days, start, finish, teacher });
     await course.save();
-    res.json({status: 'Task Saved'});
+    res.json({status: 'Course Saved'});
 
 });
 
