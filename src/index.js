@@ -18,7 +18,6 @@ app.use(express.json());
 
 app.use('/api/courses', require('./routes/courses.routes'));
 app.use('/api/students', require('./routes/alumns.routes'));
-app.use('/api/turns', require('./routes/turns.routes'));
 
 //Archivos Estaticos
 
