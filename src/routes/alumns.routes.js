@@ -61,8 +61,8 @@ router.get('/:code/courses', async (req, res) => {
 
 router.post('/', async (req, res) => {
 
-    const { name, code, semester, turn } = req.body;
-    const student = new Student({ name, code, semester, turn});
+    const { name, code, semester, credits, turn } = req.body;
+    const student = new Student({ name, code, semester, credits, turn});
     await student.save();
     res.json({status: 'Student Saved'});
 

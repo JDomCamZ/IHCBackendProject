@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "63a109238978ec1ec4b4cf24"
+  },
+  "__v": 0,
+  "code": "20171342H",
+  "name": "Camarena Zamalloa Juan Jose",
+  "semester": 6,
+  "turn": 5,
+  "enrolled": [
+    "CC4P1",
+    "CC211",
+    "CC3M2",
+    "BEF01",
+    "BRN01"
+  ],
+  "credits": 26
+},{
+  "_id": {
+    "$oid": "63a1588037e252c76d5fff88"
+  },
+  "name": "Said Zuske",
+  "code": "2013451B",
+  "semester": 7,
+  "turn": 8,
+  "__v": 0,
+  "credits": 22
+},{
+  "_id": {
+    "$oid": "63ab525eadd1bce489587b2a"
+  },
+  "name": "Aithan Maïwenn",
+  "code": "2015214C",
+  "semester": 4,
+  "credits": 18,
+  "turn": 12,
+  "enrolled": [],
+  "__v": 0
+}]
