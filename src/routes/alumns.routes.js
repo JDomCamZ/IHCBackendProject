@@ -85,7 +85,43 @@ router.put('/:code/enrolled', async (req, res) => {
     res.json({status: 'Enrolled Courses Updated'});
 })
 
-//Obtener lista de horarios disponibles para el alumno
+
+const backtrack = (schedules, schedule, i, turns) => {
+    
+    if(i >= 0){
+        for(let iday = 0; iday < schedule[i].days.length; iday++){
+            //verificando que no hay cruces
+            for(let j = 0; j < i; j++){
+                for(let jday = 0; jday < schedule[j].days.length; jday++){
+                    let start_intersection = Math.max(schedule[i].start[iday], schedule[j].start[jday]);
+                    let finish_intersection = Math.min(schedule[i].finish[iday], schedule[j].finish[jday]);
+                    if(schedule[i].days[iday] == schedule[j].days[jday] && start_intersection < finish_intersection){
+                        //existe cruze
+                        return;
+                    }
+                }
+            }
+        }
+    }
+
+    if(i+1 == turns.length){
+        schedules.push(schedule.slice());
+        return;
+    }
+
+    for(let j = 0; j < turns[i+1].length; j++){
+        schedule.push(turns[i+1][j]);
+        backtrack(schedules, schedule, i+1, turns);
+        schedule.pop();
+    }
+
+};
+const getSchedules = (turns) => {
+    const schedules = [];
+    const schedule = [];
+    backtrack(schedules, schedule, -1, turns);
+    return schedules;
+};
 
 router.get('/:code/schedule', async (req, res) => {
     const student = await Student.findOne({code: req.params.code});
@@ -94,18 +130,11 @@ router.get('/:code/schedule', async (req, res) => {
     for (let i = 0; i < courses.length; i++) {
         turns.push(await Course.find({code: courses[i]}));
     };
-    //console.log(turns);
-    for (let i = 0; i < turns.length; i++) {
-        for (let j = 0; j < turns[i].length; j++) {
-            console.log(turns[i][j].title);
-            console.log(turns[i][j].section);
-            console.log(turns[i][j].days);
-            console.log(turns[i][j].start);
-            console.log(turns[i][j].finish);
-            console.log(turns[i][j].teacher);
-        }
-    }
-    res.json(turns);
+
+    const schedules = getSchedules(turns);
+    res.json(schedules);
+
 });
+
 
 module.exports = router;
