@@ -16,6 +16,15 @@ router.get('/', async (req, res) => {
 
 });
 
+//Obtener todos los datos de un alumno
+
+router.get('/:code', async (req, res) => {
+    
+    const student = await Student.findOne({code: req.params.code});
+    res.json(student);
+
+});
+
 //Obtener nombre del alumno
 
 router.get('/:code/name', async (req, res) => {
