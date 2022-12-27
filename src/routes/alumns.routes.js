@@ -50,7 +50,7 @@ router.get('/:code/courses', async (req, res) => {
     const student = await Student.findOne({code: req.params.code});
     const courses = await Course.aggregate([
         { $match: {semester: student.semester}},
-        { $group: { _id: "$title", code: { $first: "$code"}}}
+        { $group: { _id: "$title", code: { $first: "$code" }, credits: { $first: "$credits" }}}
     ]);
     //const courses = await Course.find({semester: student.semester}).distinct("title");
     console.log(courses);
@@ -74,6 +74,13 @@ router.get('/:code/image', async (req, res) => {
     const imageName = req.params.code + ".jpg";
     const imagePath = path.join(__dirname, '..', 'images', imageName);
     res.sendFile(imagePath);
+  });
+
+//Obtener créditos del alumno
+
+router.get('/:code/credits', async (req, res) => {
+    const student = await Student.findOne({code: req.params.code});
+    res.json(student.credits);
   });
 
 //Actualizar lista de cursos matriculados del alumno
