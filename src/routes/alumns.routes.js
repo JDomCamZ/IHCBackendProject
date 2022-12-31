@@ -49,7 +49,7 @@ router.get('/:code/courses', async (req, res) => {
 
     const student = await Student.findOne({code: req.params.code});
     const courses = await Course.aggregate([
-        { $match: {semester: student.semester}},
+        { $match: { career: [student.career, student.semester] }},
         { $group: { _id: "$title", code: { $first: "$code" }, credits: { $first: "$credits" }}}
     ]);
     //const courses = await Course.find({semester: student.semester}).distinct("title");
@@ -61,8 +61,8 @@ router.get('/:code/courses', async (req, res) => {
 
 router.post('/', async (req, res) => {
 
-    const { name, code, semester, credits, turn } = req.body;
-    const student = new Student({ name, code, semester, credits, turn});
+    const { name, code, career, semester, credits, turn } = req.body;
+    const student = new Student({ name, code, career, semester, credits, turn});
     await student.save();
     res.json({status: 'Student Saved'});
 

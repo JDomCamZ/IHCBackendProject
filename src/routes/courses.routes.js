@@ -22,8 +22,8 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
 
-    const { title, code, semester, credits, section, days, start, finish, teacher } = req.body;
-    const course = new Course({ title, code, semester, credits, section, days, start, finish, teacher });
+    const { title, code, career, credits, section, days, start, finish, teacher } = req.body;
+    const course = new Course({ title, code, career, credits, section, days, start, finish, teacher });
     await course.save();
     res.json({status: 'Course Saved'});
 
@@ -31,8 +31,8 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) =>{
 
-    const { title, code, semester, credits, section, days, start, finish, teacher } = req.body;
-    const newCourse = { title, code, semester, credits, section, days, start, finish, teacher };
+    const { title, code, career, credits, section, days, start, finish, teacher } = req.body;
+    const newCourse = { title, code, career, credits, section, days, start, finish, teacher };
     await Course.findByIdAndUpdate(req.params.id, newCourse);
     console.log(req.params.id);
     res.json({status: 'Course Updated'});
