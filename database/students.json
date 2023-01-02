@@ -14,17 +14,19 @@
     "BEF01",
     "BRN01"
   ],
-  "credits": 26
+  "credits": 26,
+  "career": "N6"
 },{
   "_id": {
     "$oid": "63a1588037e252c76d5fff88"
   },
   "name": "Said Zuske",
   "code": "2013451B",
-  "semester": 7,
+  "semester": 4,
   "turn": 8,
   "__v": 0,
-  "credits": 22
+  "credits": 22,
+  "career": "N2"
 },{
   "_id": {
     "$oid": "63ab525eadd1bce489587b2a"
@@ -34,6 +36,31 @@
   "semester": 4,
   "credits": 18,
   "turn": 12,
+  "enrolled": [],
+  "__v": 0,
+  "career": "N2"
+},{
+  "_id": {
+    "$oid": "63b062a2511b936a21197179"
+  },
+  "name": "Ana Aponte",
+  "code": "20170391E",
+  "career": "A1",
+  "semester": 5,
+  "credits": 22,
+  "turn": 10,
+  "enrolled": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b2673062120efa9ea5277b"
+  },
+  "name": "Alexander Lique",
+  "code": "20192196K",
+  "career": "N6",
+  "semester": 8,
+  "credits": 24,
+  "turn": 5,
   "enrolled": [],
   "__v": 0
 }]

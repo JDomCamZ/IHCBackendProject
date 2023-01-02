@@ -4,7 +4,6 @@
   },
   "__v": 0,
   "code": "CC211",
-  "semester": 6,
   "title": "Programacion Orientada a Objetos",
   "section": "A",
   "start": [
@@ -20,14 +19,23 @@
     12
   ],
   "teacher": "Ciro Nunez",
-  "credits": 4
+  "credits": 4,
+  "career": [
+    [
+      "N2",
+      4
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63a16cd43a0d372df3e1e57b"
   },
   "title": "Matematica Computacional",
   "code": "CC3M2",
-  "semester": 6,
   "__v": 0,
   "days": [
     "Miercoles",
@@ -43,14 +51,19 @@
   ],
   "teacher": "Americo Chulluncuy",
   "section": "A",
-  "credits": 5
+  "credits": 5,
+  "career": [
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63a108228978ec1ec4b4cf23"
   },
   "__v": 0,
   "code": "CC211",
-  "semester": 6,
   "title": "Programacion Orientada a Objetos",
   "section": "B",
   "start": [
@@ -66,14 +79,23 @@
     10
   ],
   "teacher": "Juan Espejo",
-  "credits": 4
+  "credits": 4,
+  "career": [
+    [
+      "N2",
+      4
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63a9ee6c76fcd68361c25b9c"
   },
   "title": "Programación Concurrente Y Distribuida",
   "code": "CC4P1",
-  "semester": 6,
   "section": "A",
   "days": [
     "Miércoles",
@@ -89,14 +111,17 @@
   ],
   "teacher": "Yuri Nuñez",
   "__v": 0,
-  "credits": 4
+  "credits": 4,
+  "career": [
+    "N6",
+    6
+  ]
 },{
   "_id": {
     "$oid": "63ab532dadd1bce489587b2c"
   },
   "title": "Programación Concurrente Y Distribuida",
   "code": "CC4P1",
-  "semester": 6,
   "credits": 4,
   "section": "B",
   "days": [
@@ -112,14 +137,17 @@
     13
   ],
   "teacher": "Yuri Nuñez",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    "N6",
+    6
+  ]
 },{
   "_id": {
     "$oid": "63ab5e0fadd1bce489587b2e"
   },
   "title": "Ética y Filosofía Política",
   "code": "BEF01",
-  "semester": 6,
   "credits": 2,
   "section": "A",
   "days": [
@@ -132,14 +160,35 @@
     14
   ],
   "teacher": "Féchín Runa",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      2
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab5e28add1bce489587b30"
   },
   "title": "Ética y Filosofía Política",
   "code": "BEF01",
-  "semester": 6,
   "credits": 2,
   "section": "B",
   "days": [
@@ -152,14 +201,35 @@
     18
   ],
   "teacher": "Féchín Runa",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      2
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab5e6badd1bce489587b32"
   },
   "title": "Ética y Filosofía Política",
   "code": "BEF01",
-  "semester": 6,
   "credits": 2,
   "section": "C",
   "days": [
@@ -172,14 +242,35 @@
     22
   ],
   "teacher": "Hildigardis Daniyal",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      2
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab6b87add1bce489587b36"
   },
   "title": "Realidad Nacional, Constitución Y Derechos Humanos",
   "code": "BRN01",
-  "semester": 6,
   "credits": 3,
   "section": "A",
   "days": [
@@ -192,14 +283,35 @@
     18
   ],
   "teacher": "Lina Gulnaz",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      5
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab713cadd1bce489587b38"
   },
   "title": "Realidad Nacional, Constitución Y Derechos Humanos",
   "code": "BRN01",
-  "semester": 6,
   "credits": 3,
   "section": "B",
   "days": [
@@ -212,14 +324,35 @@
     12
   ],
   "teacher": "Lina Gulnaz",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      5
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab7183add1bce489587b3a"
   },
   "title": "Realidad Nacional, Constitución Y Derechos Humanos",
   "code": "BRN01",
-  "semester": 6,
   "credits": 3,
   "section": "C",
   "days": [
@@ -232,14 +365,35 @@
     22
   ],
   "teacher": "Yavor Fayiz",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      5
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab71d8add1bce489587b3c"
   },
   "title": "Realidad Nacional, Constitución Y Derechos Humanos",
   "code": "BRN01",
-  "semester": 6,
   "credits": 3,
   "section": "D",
   "days": [
@@ -252,14 +406,35 @@
     22
   ],
   "teacher": "Iustus Zdislava",
-  "__v": 0
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      5
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
 },{
   "_id": {
     "$oid": "63ab71f3add1bce489587b3e"
   },
   "title": "Realidad Nacional, Constitución Y Derechos Humanos",
   "code": "BRN01",
-  "semester": 6,
   "credits": 3,
   "section": "E",
   "days": [
@@ -272,5 +447,593 @@
     20
   ],
   "teacher": "Iustus Zdislava",
+  "__v": 0,
+  "career": [
+    [
+      "N1",
+      3
+    ],
+    [
+      "N2",
+      5
+    ],
+    [
+      "N3",
+      2
+    ],
+    [
+      "N5",
+      5
+    ],
+    [
+      "N6",
+      6
+    ]
+  ]
+},{
+  "_id": {
+    "$oid": "63b1dc67511b936a2119717b"
+  },
+  "title": "Diseño Arquitectónico 3",
+  "code": "APA105",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 6,
+  "section": "A",
+  "days": [
+    "Lunes",
+    "Miércoles",
+    "Viernes"
+  ],
+  "start": [
+    14,
+    14,
+    14
+  ],
+  "finish": [
+    17,
+    17,
+    17
+  ],
+  "teacher": "Alejandro Krateil",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b1dca0511b936a2119717d"
+  },
+  "title": "Diseño Arquitectónico 3",
+  "code": "APA105",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 6,
+  "section": "B",
+  "days": [
+    "Lunes",
+    "Miércoles",
+    "Viernes"
+  ],
+  "start": [
+    17,
+    17,
+    17
+  ],
+  "finish": [
+    20,
+    20,
+    20
+  ],
+  "teacher": "Helbert Miguel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b1e6cc511b936a21197187"
+  },
+  "title": "Diseño Bioclimático 2",
+  "code": "APA313",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Viernes"
+  ],
+  "start": [
+    10,
+    10
+  ],
+  "finish": [
+    12,
+    12
+  ],
+  "teacher": "David Rayter",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b1e6ef511b936a21197189"
+  },
+  "title": "Diseño Bioclimático 2",
+  "code": "APA313",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Martes",
+    "Viernes"
+  ],
+  "start": [
+    8,
+    8
+  ],
+  "finish": [
+    10,
+    10
+  ],
+  "teacher": "María Zúñiga",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b1e771511b936a2119718b"
+  },
+  "title": "Diseño Urbano 1",
+  "code": "APA211",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Miércoles",
+    "Miércoles"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "Virginia Marzal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b223c7511b936a2119718d"
+  },
+  "title": "Diseño Urbano 1",
+  "code": "APA211",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Martes"
+  ],
+  "start": [
+    14,
+    17
+  ],
+  "finish": [
+    16,
+    19
+  ],
+  "teacher": "Teresa Arias",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b224bc511b936a2119718f"
+  },
+  "title": "Construcción 1",
+  "code": "APA321",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Jueves"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "Miguel Santiváñez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b224e7511b936a21197191"
+  },
+  "title": "Construcción 1",
+  "code": "APA321",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Lunes",
+    "Viernes"
+  ],
+  "start": [
+    12,
+    12
+  ],
+  "finish": [
+    14,
+    14
+  ],
+  "teacher": "Luis Rengifo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b225c6511b936a21197195"
+  },
+  "title": "Historia de la Arquitectura 1",
+  "code": "APA411",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Miércoles",
+    "Miércoles"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "Carlos Guzmán",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b225df511b936a21197197"
+  },
+  "title": "Historia de la Arquitectura 1",
+  "code": "APA411",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Miércoles",
+    "Miércoles"
+  ],
+  "start": [
+    13,
+    15
+  ],
+  "finish": [
+    15,
+    17
+  ],
+  "teacher": "Carlos Morales",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b22659511b936a21197199"
+  },
+  "title": "Dibujo y Diseño Digital",
+  "code": "APA613",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Martes"
+  ],
+  "start": [
+    14,
+    15
+  ],
+  "finish": [
+    15,
+    20
+  ],
+  "teacher": "Fernando Quirós",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b2267e511b936a2119719b"
+  },
+  "title": "Dibujo y Diseño Digital",
+  "code": "APA613",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Martes",
+    "Martes"
+  ],
+  "start": [
+    10,
+    14
+  ],
+  "finish": [
+    13,
+    17
+  ],
+  "teacher": "Walter Garcia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b226a1511b936a2119719d"
+  },
+  "title": "Dibujo y Diseño Digital",
+  "code": "APA613",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "C",
+  "days": [
+    "Viernes",
+    "Viernes"
+  ],
+  "start": [
+    8,
+    9
+  ],
+  "finish": [
+    9,
+    14
+  ],
+  "teacher": "Julia Barrantes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b22776511b936a2119719f"
+  },
+  "title": "Arte y Arquitectura 2",
+  "code": "APA704",
+  "career": [
+    [
+      "A1",
+      5
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Lunes",
+    "Lunes"
+  ],
+  "start": [
+    9,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "Rosario Pacheco",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b268e362120efa9ea5277d"
+  },
+  "title": "Proyecto de Tesis I",
+  "code": "CC412",
+  "career": [
+    [
+      "N6",
+      8
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Lunes",
+    "Jueves"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "José Fiestas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b2694f62120efa9ea5277f"
+  },
+  "title": "Infraestructuras de Computación",
+  "code": "CC422",
+  "career": [
+    [
+      "N6",
+      8
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Lunes",
+    "Sábado"
+  ],
+  "start": [
+    19,
+    7
+  ],
+  "finish": [
+    22,
+    10
+  ],
+  "teacher": "Yuri Ccoicca",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b26b7b62120efa9ea52781"
+  },
+  "title": "Robótica",
+  "code": "CC432",
+  "career": [
+    [
+      "N6",
+      8
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Miércoles"
+  ],
+  "start": [
+    7,
+    7
+  ],
+  "finish": [
+    10,
+    10
+  ],
+  "teacher": "Raul Huarote",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b26bc562120efa9ea52783"
+  },
+  "title": "Minería de Datos",
+  "code": "CC442",
+  "career": [
+    [
+      "N6",
+      8
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Miércoles"
+  ],
+  "start": [
+    10,
+    10
+  ],
+  "finish": [
+    13,
+    13
+  ],
+  "teacher": "Luis Navarro",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b26c4162120efa9ea52785"
+  },
+  "title": "Programación Evolutiva",
+  "code": "CC521",
+  "career": [
+    [
+      "N6",
+      8
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Sábado"
+  ],
+  "start": [
+    20,
+    7
+  ],
+  "finish": [
+    22,
+    11
+  ],
+  "teacher": "Marcos Alania",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b26c7e62120efa9ea52787"
+  },
+  "title": "Análisis en Macrodatos",
+  "code": "CC531",
+  "career": [
+    [
+      "N6",
+      8
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Miércoles"
+  ],
+  "start": [
+    15,
+    18
+  ],
+  "finish": [
+    15,
+    18
+  ],
+  "teacher": "Yuri Nuñez",
   "__v": 0
 }]
