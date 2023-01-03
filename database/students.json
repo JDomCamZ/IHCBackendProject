@@ -6,7 +6,7 @@
   "code": "20171342H",
   "name": "Camarena Zamalloa Juan Jose",
   "semester": 6,
-  "turn": 5,
+  "turn": 1,
   "enrolled": [
     "CC4P1",
     "CC211",
@@ -23,7 +23,7 @@
   "name": "Said Zuske",
   "code": "2013451B",
   "semester": 4,
-  "turn": 8,
+  "turn": 1,
   "__v": 0,
   "credits": 22,
   "career": "N2"
@@ -35,7 +35,7 @@
   "code": "2015214C",
   "semester": 4,
   "credits": 18,
-  "turn": 12,
+  "turn": 1,
   "enrolled": [],
   "__v": 0,
   "career": "N2"
@@ -48,7 +48,7 @@
   "career": "A1",
   "semester": 5,
   "credits": 22,
-  "turn": 10,
+  "turn": 1,
   "enrolled": [],
   "__v": 0
 },{
@@ -60,7 +60,43 @@
   "career": "N6",
   "semester": 8,
   "credits": 24,
-  "turn": 5,
+  "turn": 1,
+  "enrolled": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b38a1dde2cbe09c311821d"
+  },
+  "name": "Daniel Bracamonte",
+  "code": "20171251D",
+  "career": "M6",
+  "semester": 9,
+  "credits": 24,
+  "turn": 1,
+  "enrolled": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a882de2cbe09c3118245"
+  },
+  "name": "Rosha Nicol Ricapa Corrales",
+  "code": "20180082A",
+  "career": "A1",
+  "semester": 4,
+  "credits": 22,
+  "turn": 1,
+  "enrolled": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a8aade2cbe09c3118247"
+  },
+  "name": "Lisha Elizabeth Ricapa Corrales",
+  "code": "20202117E",
+  "career": "A1",
+  "semester": 5,
+  "credits": 24,
+  "turn": 1,
   "enrolled": [],
   "__v": 0
 }]

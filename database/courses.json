@@ -1036,4 +1036,902 @@
   ],
   "teacher": "Yuri Nuñez",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a1b1de2cbe09c311821f"
+  },
+  "title": "Metodología de Investigación",
+  "code": "MC601",
+  "career": [
+    [
+      "M3",
+      9
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "A",
+  "days": [
+    "Lunes",
+    "Viernes"
+  ],
+  "start": [
+    14,
+    12
+  ],
+  "finish": [
+    16,
+    14
+  ],
+  "teacher": "Rafael Espinoza",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a1dede2cbe09c3118221"
+  },
+  "title": "Metodología de Investigación",
+  "code": "MC601",
+  "career": [
+    [
+      "M3",
+      9
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "B",
+  "days": [
+    "Viernes",
+    "Lunes"
+  ],
+  "start": [
+    8,
+    8
+  ],
+  "finish": [
+    10,
+    10
+  ],
+  "teacher": "Nain Ramos",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a232de2cbe09c3118223"
+  },
+  "title": "Metodología de Investigación",
+  "code": "MC601",
+  "career": [
+    [
+      "M3",
+      9
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "C",
+  "days": [
+    "Miércoles",
+    "Miércoles"
+  ],
+  "start": [
+    18,
+    16
+  ],
+  "finish": [
+    20,
+    18
+  ],
+  "teacher": "Walter Barrutia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a257de2cbe09c3118225"
+  },
+  "title": "Metodología de Investigación",
+  "code": "MC601",
+  "career": [
+    [
+      "M3",
+      9
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "D",
+  "days": [
+    "Martes",
+    "Jueves"
+  ],
+  "start": [
+    14,
+    20
+  ],
+  "finish": [
+    16,
+    22
+  ],
+  "teacher": "Nain Ramos",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a27ede2cbe09c3118227"
+  },
+  "title": "Metodología de Investigación",
+  "code": "MC601",
+  "career": [
+    [
+      "M3",
+      9
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "E",
+  "days": [
+    "Martes",
+    "Miércoles"
+  ],
+  "start": [
+    18,
+    18
+  ],
+  "finish": [
+    20,
+    20
+  ],
+  "teacher": "Duilio Aguilar",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a336de2cbe09c3118229"
+  },
+  "title": "Ingeniería Económica y Finanzas",
+  "code": "MS213",
+  "career": [
+    [
+      "M3",
+      7
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Viernes"
+  ],
+  "start": [
+    14,
+    16
+  ],
+  "finish": [
+    16,
+    18
+  ],
+  "teacher": "Solon Prada",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a36ede2cbe09c311822b"
+  },
+  "title": "Ingeniería Económica y Finanzas",
+  "code": "MS213",
+  "career": [
+    [
+      "M3",
+      7
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "B",
+  "days": [
+    "Martes",
+    "Jueves"
+  ],
+  "start": [
+    14,
+    10
+  ],
+  "finish": [
+    16,
+    12
+  ],
+  "teacher": "Samuel Rivera",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a393de2cbe09c311822d"
+  },
+  "title": "Ingeniería Económica y Finanzas",
+  "code": "MS213",
+  "career": [
+    [
+      "M3",
+      7
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "C",
+  "days": [
+    "Jueves",
+    "Viernes"
+  ],
+  "start": [
+    16,
+    14
+  ],
+  "finish": [
+    18,
+    16
+  ],
+  "teacher": "Solon Prada",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a3d1de2cbe09c311822f"
+  },
+  "title": "Ingeniería Económica y Finanzas",
+  "code": "MS213",
+  "career": [
+    [
+      "M3",
+      7
+    ],
+    [
+      "M4",
+      8
+    ],
+    [
+      "M5",
+      9
+    ],
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 2,
+  "section": "D",
+  "days": [
+    "Jueves",
+    "Jueves"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "Jorge Zavaleta",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a4c8de2cbe09c3118231"
+  },
+  "title": "Sistemas Embebidos",
+  "code": "MT136",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Martes"
+  ],
+  "start": [
+    18,
+    9
+  ],
+  "finish": [
+    20,
+    11
+  ],
+  "teacher": "Jose Oliden",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a4f8de2cbe09c3118233"
+  },
+  "title": "Sistemas Embebidos",
+  "code": "MT136",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Martes",
+    "Miércoles"
+  ],
+  "start": [
+    18,
+    9
+  ],
+  "finish": [
+    20,
+    11
+  ],
+  "teacher": "Jose Oliden",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a502de2cbe09c3118235"
+  },
+  "title": "Sistemas Embebidos",
+  "code": "MT136",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 3,
+  "section": "C",
+  "days": [
+    "Martes",
+    "Miércoles"
+  ],
+  "start": [
+    18,
+    11
+  ],
+  "finish": [
+    20,
+    13
+  ],
+  "teacher": "Jose Oliden",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a578de2cbe09c3118237"
+  },
+  "title": "Control Digital",
+  "code": "MT228",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Lunes",
+    "Jueves"
+  ],
+  "start": [
+    12,
+    14,
+    20
+  ],
+  "finish": [
+    14,
+    16,
+    22
+  ],
+  "teacher": "Ricardo Rodriguez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a5bcde2cbe09c3118239"
+  },
+  "title": "Control de Procesos",
+  "code": "MT233",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Sábado"
+  ],
+  "start": [
+    18,
+    12
+  ],
+  "finish": [
+    20,
+    14
+  ],
+  "teacher": "Alcides Joo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a5cfde2cbe09c311823b"
+  },
+  "title": "Control de Procesos",
+  "code": "MT233",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Jueves",
+    "Sábado"
+  ],
+  "start": [
+    18,
+    18
+  ],
+  "finish": [
+    20,
+    20
+  ],
+  "teacher": "Manuel Gomez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a636de2cbe09c311823d"
+  },
+  "title": "Inteligencia Artificial",
+  "code": "MT616",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Viernes",
+    "Viernes"
+  ],
+  "start": [
+    16,
+    20
+  ],
+  "finish": [
+    19,
+    22
+  ],
+  "teacher": "Paul Cardenas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a650de2cbe09c311823f"
+  },
+  "title": "Inteligencia Artificial",
+  "code": "MT616",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 4,
+  "section": "B",
+  "days": [
+    "Viernes",
+    "Lunes"
+  ],
+  "start": [
+    16,
+    17
+  ],
+  "finish": [
+    19,
+    19
+  ],
+  "teacher": "Ricardo Rodriguez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3a6b3de2cbe09c3118241"
+  },
+  "title": "Diseño de Máquinas Autómatas",
+  "code": "MT723",
+  "career": [
+    [
+      "M6",
+      9
+    ]
+  ],
+  "credits": 4,
+  "section": "A",
+  "days": [
+    "Miércoles",
+    "Miércoles"
+  ],
+  "start": [
+    16,
+    19
+  ],
+  "finish": [
+    19,
+    21
+  ],
+  "teacher": "Helard Alvarez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3b277327efb3fd25f25f3"
+  },
+  "title": "Diseño Arquitectónico 2",
+  "code": "APA104",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 6,
+  "section": "A",
+  "days": [
+    "Lunes",
+    "Miércoles",
+    "Viernes"
+  ],
+  "start": [
+    15,
+    15,
+    15
+  ],
+  "finish": [
+    18,
+    18,
+    18
+  ],
+  "teacher": "Paulo Osorio",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3b29e327efb3fd25f25f5"
+  },
+  "title": "Diseño Arquitectónico 2",
+  "code": "APA104",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 6,
+  "section": "B",
+  "days": [
+    "Miércoles",
+    "Miércoles",
+    "Viernes"
+  ],
+  "start": [
+    15,
+    18,
+    15
+  ],
+  "finish": [
+    18,
+    20,
+    19
+  ],
+  "teacher": "Eloy Vera",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3b37f327efb3fd25f25f7"
+  },
+  "title": "Dibujo Arquitectónico 2",
+  "code": "APA612",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Jueves"
+  ],
+  "start": [
+    8,
+    9
+  ],
+  "finish": [
+    9,
+    14
+  ],
+  "teacher": "Manuel Chiara",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3b517327efb3fd25f25f9"
+  },
+  "title": "Sociología Urbana",
+  "code": "APA202",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 2,
+  "section": "A",
+  "days": [
+    "Viernes",
+    "Viernes"
+  ],
+  "start": [
+    8,
+    9
+  ],
+  "finish": [
+    9,
+    14
+  ],
+  "teacher": "Isis Bustamante",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3b556327efb3fd25f25fb"
+  },
+  "title": "Sociología Urbana",
+  "code": "APA202",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 2,
+  "section": "B",
+  "days": [
+    "Martes",
+    "Martes"
+  ],
+  "start": [
+    14,
+    15
+  ],
+  "finish": [
+    15,
+    17
+  ],
+  "teacher": "Edith Aranda",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3b8e0327efb3fd25f25fd"
+  },
+  "title": "Diseño Bioclimático 1",
+  "code": "APA312",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Miércoles",
+    "Miércoles"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "David Rayter",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3ba67327efb3fd25f25ff"
+  },
+  "title": "Estructuras 2",
+  "code": "APA332",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Martes",
+    "Martes"
+  ],
+  "start": [
+    10,
+    14
+  ],
+  "finish": [
+    12,
+    16
+  ],
+  "teacher": "Alex Chaparro",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3ba86327efb3fd25f2601"
+  },
+  "title": "Estructuras 2",
+  "code": "APA332",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 3,
+  "section": "B",
+  "days": [
+    "Martes",
+    "Martes"
+  ],
+  "start": [
+    8,
+    10
+  ],
+  "finish": [
+    10,
+    12
+  ],
+  "teacher": "Carmen Pacora",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3bb11327efb3fd25f2603"
+  },
+  "title": "Crítica de la Arquitectura Contemporánea",
+  "code": "APA402",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 2,
+  "section": "A",
+  "days": [
+    "Lunes"
+  ],
+  "start": [
+    10
+  ],
+  "finish": [
+    12
+  ],
+  "teacher": "Manuel Cuadra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b3bb5e327efb3fd25f2605"
+  },
+  "title": "Metodología de la Investigación Científica",
+  "code": "APA705",
+  "career": [
+    [
+      "A1",
+      4
+    ]
+  ],
+  "credits": 3,
+  "section": "A",
+  "days": [
+    "Jueves",
+    "Jueves"
+  ],
+  "start": [
+    15,
+    17
+  ],
+  "finish": [
+    17,
+    19
+  ],
+  "teacher": "Carlos Morales",
+  "__v": 0
 }]
